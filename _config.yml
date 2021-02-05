@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: Mather
 subtitle:
-description:
-author: John Doe
+description: I am a Mather !
+author: Jamson·Wilson
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: ilacinc.github.io
 baseurl:
 permalink: pretty
 
@@ -47,6 +47,8 @@ highlight:
 ## 'redcarpet' is unsupported on GitHub Pages now.
 markdown: kramdown
 kramdown:
+  syntax_highlighter_opts:
+    disable : false
     input: GFM
 
 # Default Attributes
@@ -78,6 +80,8 @@ plugins:
 # Put your favicon.ico into `assets/` directory.
 favicon: /assets/favicon.ico
 
+avatar: /images/avatar.png
+
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
 
@@ -87,7 +91,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+#since: 2021
 
 # icon between year and author @Footer
 authoricon: heart
